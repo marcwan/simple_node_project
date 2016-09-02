@@ -1,11 +1,11 @@
-DROP DATABASE IF EXISTS PhotoAlbums;
+DROP DATABASE IF EXISTS heroku_100ead766ade82c;
 
 
-CREATE DATABASE PhotoAlbums
+CREATE DATABASE heroku_100ead766ade82c
     DEFAULT CHARACTER SET utf8
     DEFAULT COLLATE utf8_general_ci;
 
-USE PhotoAlbums;
+USE heroku_100ead766ade82c;
 
 
 CREATE TABLE Albums
@@ -23,7 +23,7 @@ ENGINE = InnoDB;
 CREATE TABLE Photos
 (
   album_name VARCHAR(50),
-  filename VARCHAR(50),
+  filename VARCHAR(500),
   description VARCHAR(500),
   date DATETIME,
 
